@@ -1,11 +1,7 @@
 import React from "react";
 
 const Repairs = () => {
-  return (
-    <div>
-      <h1>Repairs</h1>
-    </div>
-  );
+  return <div>Repairs</div>;
 };
 
 export default Repairs;

@@ -1,19 +1,22 @@
 import React from "react";
-import logo from "../assets/img/coche.png";
+import logo from "../assets/img/tecnico.png";
 import * as ReactBootstrap from "react-bootstrap";
 
-const Vehicles = () => {
+const Owners = () => {
   return (
     <div>
+      <br />
       <ReactBootstrap.CardGroup style={{ width: "30%" }}>
         <ReactBootstrap.Card style={{ margin: "10px" }}>
           <ReactBootstrap.Card.Img variant="top" src={logo} />
           <ReactBootstrap.Card.Body>
             <ReactBootstrap.Card.Text>
-              <p>Matricula:</p>
-              <p>Estado:</p>
+              <p>Nombre:</p>
+              <p>Apellido:</p>
+              <p>Email:</p>
+              <p>Celular:</p>
             </ReactBootstrap.Card.Text>
-            <ReactBootstrap.Button variant="primary" href="/Repair">
+            <ReactBootstrap.Button variant="primary" href="/Technician">
               see more...
             </ReactBootstrap.Button>
           </ReactBootstrap.Card.Body>
@@ -23,10 +26,12 @@ const Vehicles = () => {
           <ReactBootstrap.Card.Img variant="top" src={logo} />
           <ReactBootstrap.Card.Body>
             <ReactBootstrap.Card.Text>
-              <p>Matricula:</p>
-              <p>Estado:</p>
+              <p>Nombre:</p>
+              <p>Apellido:</p>
+              <p>Email:</p>
+              <p>Celular:</p>
             </ReactBootstrap.Card.Text>
-            <ReactBootstrap.Button variant="primary" href="/Repair">
+            <ReactBootstrap.Button variant="primary" href="/Technician">
               see more...
             </ReactBootstrap.Button>
           </ReactBootstrap.Card.Body>
@@ -36,4 +41,4 @@ const Vehicles = () => {
   );
 };
 
-export default Vehicles;
+export default Owners;
