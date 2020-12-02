@@ -1,7 +1,7 @@
 import "./App.css";
 
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import * as ReactBootstrap from "react-bootstrap";
 import Home from "./components/Home";
 import Owner from "./components/Owner";
@@ -35,16 +35,6 @@ function App() {
                 Profile
               </ReactBootstrap.Nav.Link>
             </ReactBootstrap.Nav>
-            <ReactBootstrap.Form inline>
-              <ReactBootstrap.FormControl
-                type="text"
-                placeholder="Search"
-                className="mr-sm-2"
-              />
-              <ReactBootstrap.Button variant="outline-primary">
-                Buscar
-              </ReactBootstrap.Button>
-            </ReactBootstrap.Form>
           </ReactBootstrap.Navbar.Collapse>
         </ReactBootstrap.Navbar>
         <switch>
